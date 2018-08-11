@@ -7,7 +7,7 @@ class PIEX
     var $template_data = array();
     var $snip_path;
     
-    function PIEX()
+    function __construct()
 	{
         if (!is_file($this->snip_path.'simplepie/simplepie.inc')) die('simplepie not found');
         
