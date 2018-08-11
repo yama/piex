@@ -15295,5 +15295,3 @@ class SimplePie_Sanitize
 		}
 	}
 }
-
-?>
